@@ -3,7 +3,7 @@ A shiny based R Dashboard which let's user observe stacked area plotly plots for
 
 # The Main Dashboard look as shown below:
 
-[Alt text](main_screen.jpg?raw=true "The Main Dashboard:")
+![Alt text](main_screen.jpg?raw=true "The Main Dashboard:")
 
 # The Interactive Oil/Gas Plot Tab Looks as shown below:
 
