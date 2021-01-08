@@ -127,9 +127,11 @@ server <- function(input, output, session){
         cnt <- count;
         if( j <= 4){
           crx <- '300';
+          #browser();
         }
         else{
           crx <- input$crx_value;
+          #browser();
         }
         total_col_for_yr_j <- i;
         if(i >= as.numeric(crx)){
@@ -156,6 +158,7 @@ server <- function(input, output, session){
               }
               next;
             }
+            
             # Case 2:
             else if(df[j,col_num+1] - extra_val < 0){
               extra_val = extra_val - df[j,col_num+1];
@@ -176,6 +179,8 @@ server <- function(input, output, session){
           cnt <- count_reset;
           count <- count_reset;
         }
+        cnt <- count_reset;
+        count <- count_reset;
         j <- j + 1;
       }
       # Again find the total after x% deduction
